@@ -38,16 +38,18 @@
         <div class="card text-center p-3" style="width: 100%; max-width: 31rem;">
             <div class="card-body">
                 <p class="card-text text-center font-weight-bold fw-light">You can close this page without losing your place in the queue.</p>
-                <div class="container" style="width: 100%; height: 100%;">
-                    <div class="row">
-                        <div class="col-4 nopadding">
-                        <img class="ml-auto" style="width:100%;" src="green_gif.gif">
-                        </div>
-                        <div class="col-7 nopadding align-self-end">
-                        <img class="mr-auto" style="width:100%" src="logo.png">
+                <a href="https://maxhgrobins.itch.io/mondays">
+                    <div class="container" style="width: 100%; height: 100%;">
+                        <div class="row">
+                            <div class="col-4 nopadding">
+                                <img class="ml-auto" style="width:100%;" src="green_gif.gif">
+                            </div>
+                            <div class="col-7 nopadding align-self-end">
+                                <img class="mr-auto" style="width:100%" src="logo.png">
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <h2 class="card-title pt-2 fw-bold">You've joined our queue</h2>
             <p class="pt-2 card-text">We are using a virtual queue to limit the number of customers using the website at the same time. This is to give you the best possible online support experience.</p>
@@ -103,7 +105,7 @@
         var bar = document.querySelector(".progress-bar");
         function makeProgress(){
             if(i < 100){
-                i = i + 9;
+                i = i + 10.8;
                 bar.style.width = i + "%";
             }
             // Wait for sometime before running this script again
@@ -111,7 +113,7 @@
         }
         function loseProgress(){
             if(i > 0){
-                i = i - 9;
+                i = i - 10.8;
                 bar.style.width = i + "%";
             }
             // Wait for sometime before running this script again
